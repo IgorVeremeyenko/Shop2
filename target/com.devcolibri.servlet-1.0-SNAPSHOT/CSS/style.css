@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+html, body {
+    height : 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner {
+    text-align: center;
+    width: auto;
+    padding: 0 15px;
+}
+#main_div {
+    background: rgba(77, 56, 75, 1);
+    background: -moz-linear-gradient(left, rgba(77, 56, 75, 1) 0%, rgba(36, 54, 90, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77, 56, 75, 1)), color-stop(100%, rgba(36, 54, 90, 1)));
+    background: -webkit-linear-gradient(left, rgba(77, 56, 75, 1) 0%, rgba(36, 54, 90, 1) 100%);
+    background: -o-linear-gradient(left, rgba(77, 56, 75, 1) 0%, rgba(36, 54, 90, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(77, 56, 75, 1) 0%, rgba(36, 54, 90, 1) 100%);
+    background: linear-gradient(to right, rgba(77, 56, 75, 1) 0%, rgba(36, 54, 90, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d384b', endColorstr='#24365a', GradientType=1 );
+    height: 100%;
+    min-height: 400px; 
+}
+
+#main_div .login-wr {
+    position: relative;
+    margin: 0 auto;
+    max-width: 270px;
+    padding: 0 15px 0 15px;
+}
+
+#main_div h2 {
+    font-weight: 200;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0;
+    color: #eee;
+}
+
+#main_div h3 {
+
+    font-size: 1.4em;
+    color: #dacbff91;
+}
+
+#main_div .form {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#main_div input[type="text"],
+#main_div input[type="password"],
+#main_div button {
+    margin-bottom: 25px;
+    height: 40px;
+    outline: 0;
+    -moz-outline-style: none;
+}
+      
+#main_div input[type="text"] {
+    background: no-repeat left 10px center;
+}
+
+#main_div input[type="password"] {
+    background: no-repeat left 10px center;
+}
+
+#main_div input[type="text"],
+#main_div input[type="password"] {
+    width: calc(80% - 50px);
+    border: none;
+    border-bottom: 1px solid #666;
+    padding: 0 0 0 50px;
+    font-size: 14px;
+}
+
+#main_div input[type="text"]:focus,
+#main_div input[type="password"]:focus {
+    border-bottom: 1px solid #ccc;
+    color: #eee;
+}  
+    
+#main_div a {
+    text-align: center;
+    font-size: 12px;
+    color: #eee;
+}  
+
+#main_div p{
+    padding-bottom: 10px;
+}
+      
+#main_div button {
+    width: 80%;  
+    background: none;
+    border:none;
+    border: 1px solid #666;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow .4s ease;
+}
+
+#main_div*::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+#main_div *:-moz-placeholder {
+    color: #ccc;
+}
+
+#main_div *::-moz-placeholder {
+    color: #ccc;
+}
+
+#main_div *:-ms-input-placeholder {
+    color: #ccc; 
+}

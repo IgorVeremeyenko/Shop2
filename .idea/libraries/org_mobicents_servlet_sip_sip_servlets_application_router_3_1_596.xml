@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="org.mobicents.servlet.sip:sip-servlets-application-router:3.1.596" type="repository">
+    <properties maven-id="org.mobicents.servlet.sip:sip-servlets-application-router:3.1.596" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mobicents/servlet/sip/sip-servlets-application-router/3.1.596/sip-servlets-application-router-3.1.596.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mobicents/servlet/sip/sip-servlets-spec/3.1.596/sip-servlets-spec-3.1.596.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mobicents/servlet/sip/sip-servlets-core-api/3.1.596/sip-servlets-core-api-3.1.596.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mobicents/servlet/sip/sip-servlets-jruby/3.1.596/sip-servlets-jruby-3.1.596.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mobicents/servlet/sip/sip-servlets-client/3.1.596/sip-servlets-client-3.1.596.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mobicents/servlet/sip/sip-servlets-annotations/3.1.596/sip-servlets-annotations-3.1.596.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
